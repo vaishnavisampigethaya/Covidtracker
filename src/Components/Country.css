@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Castoro, sans-serief;
+  color: white;
+}
+.main-heading {
+  color: blue;
+}
+.container-fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("covid-cells.jpg");
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+.table-responsive {
+  max-height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 10px;
+}
+
+tr:hover {
+  background-color: #ffa;
+  border-radius: 10px;
+}
+
+td,
+th {
+  position: relative;
+  text-align: center;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+}
+
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #f2f2f2;
+  left: 0;
+  top: -5000px;
+  height: 5000px;
+  width: 100%;
+  z-index: -1;
+}
+.table tr td:hover:nth-child(4) {
+  background-color: rgb(231, 83, 115);
+  color: aliceblue;
+  border: 0.5px solid rbg(12, 12, 12);
+  border-radius: 5px;
+}
+.table tr td:hover:nth-child(8) {
+  background-color: rgb(231, 83, 115);
+  color: aliceblue;
+  border: 0.5px solid rbg(12, 12, 12);
+  border-radius: 5px;
+}
+.table tr td:hover {
+  background-color: rgb(117, 223, 122);
+  color: aliceblue;
+  border: 0.5px solid rbg(12, 12, 12);
+  border-radius: 5px;
+}
+
+.thead-dark {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th {
+  position: sticky;
+  z-index: 10;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,20 @@
+.btn p {
+  color: black;
+  font-size: larger;
+}
+
+.btn {
+  padding-top: 50px;
+  padding-left: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 20px;
+}
+
+.btn button {
+  width: 90px;
+  height: 50px;
+  background-color: rgb(255, 0, 98);
+  border-radius: 10px;
+  color: black;
+}
