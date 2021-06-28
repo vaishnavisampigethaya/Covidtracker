@@ -1,3 +1,8 @@
+# DEMO OF THIS APP
+
+To See Demo click on https://vaishnavisampigethaya.github.io/Covidtracker/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
