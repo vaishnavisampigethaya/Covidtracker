@@ -40,7 +40,7 @@ export default function Country() {
                   <tr key={index}>
                     <td>{curElement.Country}</td>
                     <td>{curElement.TotalConfirmed}</td>
-                    <td>{curElement.ToatlRecovered}</td>
+                    <td>{curElement.TotalRecovered}</td>
                     <td>{curElement.TotalDeaths}</td>
                     <td>{curElement.NewConfirmed}</td>
                     <td>{curElement.NewDeaths}</td>
